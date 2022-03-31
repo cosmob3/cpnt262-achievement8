@@ -9,3 +9,6 @@
 ---
 
 ## Process
+
+tried to port files over from earlier in the week from vue projet but it was not working
+have to re-watch video and use `v-for`. Using that I was able to render the api content
