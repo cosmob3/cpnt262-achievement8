@@ -1,29 +1,11 @@
-# Nuxt 3 Minimal Starter
+# CPNT-262 / Achievement 8 - Async Fetch Nuxt / Bryan Velasco
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+## TODO
 
-## Setup
+- Use async to fetch data from an API
+- Content from a public rest api is visible and accessible
+- Deployed repo to netlify
 
-Make sure to install the dependencies
+---
 
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+## Process
