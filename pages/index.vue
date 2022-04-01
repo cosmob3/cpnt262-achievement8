@@ -2,18 +2,18 @@
   <div class="page_layout">
     <h1>{{ msg }}</h1>
     <div>
-      <p v-for="character in data" :key="character.id">
-        {{ character.name }}
-      </p>
+      <ul>
+        <li v-for="character in data" :key="character.id">
+          {{ character.name }}
+          <img :src="character.imageUrl" :alt="character.name" />
+        </li>
+      </ul>
     </div>
     <TheFooter />
   </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
-import TheFooter from "../components/TheFooter.vue";
-
 const data = ref();
 
 async function fetchData() {
@@ -47,10 +47,15 @@ h1 {
   justify-content: center;
   font-size: 40px;
 }
+img {
+  width: 20%;
+}
 
-p {
+li {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
   font-size: 18px;
 }
 .page_layout {
