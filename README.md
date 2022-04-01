@@ -1,10 +1,16 @@
 # CPNT-262 / Achievement 8 - Async Fetch Nuxt / Bryan Velasco
 
+## Attributions
+
+- Used the [Disney API](https://disneyapi.dev/) for content
+
+- Thank you to Ashlyn for the code used in this assignment
+
 ## TODO
 
-- Use async to fetch data from an API
-- Content from a public rest api is visible and accessible
-- Deployed repo to netlify
+- X Use async to fetch data from an API
+- X Content from a public rest api is visible and accessible
+- X Deployed repo to netlify
 
 ---
 
@@ -25,3 +31,7 @@
 - Added images. Was wrapping the image `src` like now I did the name. Turns out I did not need mustach syntax to pass the informantion to the `src` and `alt` text.
 
 - Not finished just yet... Still have to deploy it as a netlify page
+
+- Netlify Deployment was a success!
+
+- Sorry for the long scroll!
