@@ -23,3 +23,5 @@
 - I am going to try to see if I am able to also render the image.
 
 - Added images. Was wrapping the image `src` like now I did the name. Turns out I did not need mustach syntax to pass the informantion to the `src` and `alt` text.
+
+- Not finished just yet... Still have to deploy it as a netlify page
